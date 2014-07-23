@@ -1,0 +1,39 @@
+section.contenido {
+	background: #ccc;
+}
+
+section.contenido .column {
+	color: white;
+}
+
+section.contenido .col1 {
+	background: red;
+}
+
+section.contenido .col2 {
+	background: green;
+}
+
+section.contenido .col3 {
+	background: blue;
+}
+
+footer, .page-wrap:after {
+	/* .push must be the same height as footer */
+	height: 5.625em; 
+}
+
+.page-wrap {
+	min-height: 100%;
+	/* equal to footer height */
+	margin-bottom: -5.625em; 
+}
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+
+/* debug */
+.column {
+	border: 1px solid pink;
+}
